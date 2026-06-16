@@ -22,6 +22,8 @@ def backup_logs():
         print('\n начало записи логов')
         with open('backup.txt', 'a', encoding='utf-8') as f:
             f.write(f'лог сохранен в {time.strftime('%Y-%m-%d %H:%M:%S')}\n')
+        time.sleep(1.5)
+        print('[бэкап] запись логов в файл')
 
 
 def user_interface():
