@@ -1,0 +1,52 @@
+VCS - система контроля версий
+
+Репозиторий
+Коммит
+Индекс (область отслеживания)
+Статус
+Лог
+
+git config --global user.name 'rudak aleksandra'
+git config --global user.email 'alex.rud.seal@gmail.com'
+git config --list
+
+git init
+git status
+git add .
+git commit -m "create test file"
+git log
+git log --graph
+git log --oneline
+git checkout ed1e995
+git checkout master
+git add .gitignore
+git commit -m "добавлен .gitignore"
+
+git branch
+git branch feature/test     остаемся на исходной ветке
+git checkout -b feature/test   создание и моментальное переключение
+git checkout feature/test
+git merge feature/test
+
+
+git add .
+git commit -m "update 2 test.py"
+
+
+
+
+
+
+
+
+
+
+git commit -m "update test.py from conflict"
+
+git checkout -b conflict
+git add .
+git commit -m "update test.py from conflict"
+
+git switch master
+
+
