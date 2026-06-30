@@ -1,7 +1,0 @@
-# для pycharm .idea/ внутренние настройки ide
-# *.iml файлы конфигурации модулей
-.idea/
-*.iml
-vscode/
-*.code-workspace
-
