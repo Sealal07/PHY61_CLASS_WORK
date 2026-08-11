@@ -1,0 +1,56 @@
+-- задача 7
+-- SELECT i.Title, e.Domestic 
+-- FROM IMDB i
+-- LEFT JOIN earning e
+-- ON i.Movie_id = e.Movie_id;
+-- 
+-- задача 8
+-- 
+-- SELECT i.Title, g.genre, e.Worldwide
+-- FROM IMDB i
+-- INNER JOIN genre g
+-- ON i.Movie_id = g.Movie_id
+-- INNER JOIN earning e
+-- ON i.Movie_id = e.Movie_id
+-- WHERE i.Rating > 7.5;
+-- 
+-- задача 9
+-- SELECT i.Title, g.genre
+-- FROM IMDB i
+-- INNER JOIN genre g 
+-- ON i.Movie_id = g.Movie_id 
+-- WHERE i.Title LIKE '%Love%' 
+-- AND g.genre = 'Drama' ;
+-- 
+-- задача 10
+-- SELECT * FROM IMDB, genre;
+-- SELECT * FROM IMDB i
+-- INNER JOIN genre g 
+-- ON i.Movie_id = g.Movie_id
+-- 
+-- 
+-- 
+-- 
+-- 
+-- SELECT COUNT(*) FROM IMDB;
+-- SELECT COUNT(MetaCritic) 
+-- AS  count_MetaCritic
+-- FROM IMDB;
+-- 
+-- SELECT AVG(Worldwide) 
+-- AS average
+-- FROM earning
+-- 
+-- SELECT COUNT(genre) as count_movie, genre
+-- FROM genre
+-- GROUP BY genre
+-- ORDER BY genre DESC
+-- 
+-- SELECT Title, AVG(Budget) as avg 
+-- FROM IMDB
+-- GROUP BY Budget 
+-- HAVING avg > 1000000 
+-- 
+-- 
+
+

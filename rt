@@ -1,0 +1,36 @@
+git clone https://github.com/Sealal07/space-crypto-project.git
+cd space-crypto-project
+git add main.py
+git commit -m 'initial commit add main.py'
+git push origin main
+git checkout -b  feature/hourglass
+
+
+git add main.py
+git commit -m 'feat: implement hourglass cipher'
+git push origin feature/hourglass
+
+git checkout main
+git branch
+git checkout -b  feature/scout
+
+
+
+
+
+
+
+
+
+
+git add .
+git commit -m 'feat: implement scout onboard validator'
+git checkout main
+git branch
+git merge feature/hourglass
+git merge feature/scout
+
+git add .
+git commit -m 'fix merge conflict'
+
+git push origin main

@@ -1,0 +1,64 @@
+ 
+    UPDATE "IMDB"
+SET 
+    "Rating" = NULLIF("Rating", ''),
+    "TotalVotes" = NULLIF("TotalVotes", ''),
+    "MetaCritic" = NULLIF("MetaCritic", ''),
+    "Budget" = NULLIF("Budget", ''),
+    "Movie_id" = NULLIF("Movie_id", ''),
+    "Title" = NULLIF("Title", ''),
+    "Runtime" = NULLIF("Runtime", ''),
+    "CVotes10" = NULLIF("CVotes10", ''),
+    "CVotes09" = NULLIF("CVotes09", ''),
+    "CVotes08" = NULLIF("CVotes08", ''),
+    "CVotes07" = NULLIF("CVotes07", ''),
+    "CVotes06" = NULLIF("CVotes06", ''),
+    "CVotes05" = NULLIF("CVotes05", ''),
+    "CVotes04" = NULLIF("CVotes04", ''),
+    "CVotes03" = NULLIF("CVotes03", ''),
+    "CVotes02" = NULLIF("CVotes02", ''),
+    "CVotes01" = NULLIF("CVotes01", ''),
+    "CVotesMale" = NULLIF("CVotesMale", ''),
+    "CVotesFemale" = NULLIF("CVotesFemale", ''),
+    "CVotesU18" = NULLIF("CVotesU18", ''),
+    "CVotesU18M" = NULLIF("CVotesU18M", ''),
+    "CVotesU18F" = NULLIF("CVotesU18F", ''),
+    "CVotes1829" = NULLIF("CVotes1829", ''),
+    "CVotes1829M" = NULLIF("CVotes1829M", ''),
+    "CVotes1829F" = NULLIF("CVotes1829F", ''),
+    "CVotes3044" = NULLIF("CVotes3044", ''),
+    "CVotes3044M" = NULLIF("CVotes3044M", ''),
+    "CVotes3044F" = NULLIF("CVotes3044F", ''),
+    "CVotes45A" = NULLIF("CVotes45A", ''),
+    "CVotes45AM" = NULLIF("CVotes45AM", ''),
+    "CVotes45AF" = NULLIF("CVotes45AF", ''),
+    "CVotes1000" = NULLIF("CVotes1000", ''),
+    "CVotesUS" = NULLIF("CVotesUS", ''),
+    "CVotesnUS" = NULLIF("CVotesnUS", ''),
+    "VotesM" = NULLIF("VotesM", ''),
+    "VotesF" = NULLIF("VotesF", ''),
+    "VotesU18" = NULLIF("VotesU18", ''),
+    "VotesU18M" = NULLIF("VotesU18M", ''),
+    "VotesU18F" = NULLIF("VotesU18F", ''),
+    "Votes1829" = NULLIF("Votes1829", ''),
+    "Votes1829M" = NULLIF("Votes1829M", ''),
+    "Votes1829F" = NULLIF("Votes1829F", ''),
+    "Votes3044" = NULLIF("Votes3044", ''),
+    "Votes3044M" = NULLIF("Votes3044M", ''),
+    "Votes3044F" = NULLIF("Votes3044F", ''),
+    "Votes45A" = NULLIF("Votes45A", ''),
+    "Votes45AM" = NULLIF("Votes45AM", ''),
+    "Votes45AF" = NULLIF("Votes45AF", ''),
+    "VotesIMDB" = NULLIF("VotesIMDB", ''),
+    "Votes1000" = NULLIF("Votes1000", ''),
+    "VotesUS" = NULLIF("VotesUS", ''),
+    "VotesnUS" = NULLIF("VotesnUS", '');
+
+UPDATE "genre"
+SET 
+    "Movie_id" = NULLIF("Movie_id", ''),
+    "genre" = NULLIF("genre", '');
+
+
+UPDATE "earning"
+SET "Movie_id" = NULLIF("Movie_id", '');

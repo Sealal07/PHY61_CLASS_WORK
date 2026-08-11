@@ -1,0 +1,716 @@
+{
+    "docs": [
+        {
+            "id": 11099051,
+            "countries": [
+                {
+                    "name": "США"
+                },
+                {
+                    "name": "Корея Южная"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "концерт"
+                },
+                {
+                    "name": "музыка"
+                }
+            ],
+            "name": "Stray Kids: The dominATE Experience",
+            "rating": {
+                "kp": 9.542,
+                "imdb": 8.3
+            },
+            "type": "movie",
+            "year": 2026
+        },
+        {
+            "id": 11688917,
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "короткометражка"
+                }
+            ],
+            "name": "Маринад 4: Год любви",
+            "rating": {
+                "kp": 9.513
+            },
+            "type": "movie",
+            "year": 2026
+        },
+        {
+            "id": 8420095,
+            "type": "movie",
+            "rating": {
+                "kp": 9.383
+            },
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "name": "Маринад: Тайна письма",
+            "genres": [
+                {
+                    "name": "короткометражка"
+                }
+            ],
+            "year": 2025
+        },
+        {
+            "id": 1252447,
+            "type": "movie",
+            "year": 1999,
+            "rating": {
+                "kp": 9.305,
+                "imdb": 8.9
+            },
+            "countries": [
+                {
+                    "name": "США"
+                }
+            ],
+            "name": "Лорды раздевалки",
+            "genres": [
+                {
+                    "name": "для взрослых"
+                },
+                {
+                    "name": "спорт"
+                }
+            ]
+        },
+        {
+            "genres": [
+                {
+                    "name": "мюзикл"
+                },
+                {
+                    "name": "биография"
+                }
+            ],
+            "type": "movie",
+            "id": 1003587,
+            "name": "Гамильтон",
+            "year": 2016,
+            "rating": {
+                "kp": 9.252,
+                "imdb": 8.3,
+                "filmCritics": 7.6
+            },
+            "countries": [
+                {
+                    "name": "США"
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "rating": {
+                "kp": 9.25
+            },
+            "name": "Жизнь человека. Последнее интервью",
+            "type": "movie",
+            "genres": [
+                {
+                    "name": "документальный"
+                }
+            ],
+            "id": 2500772,
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ]
+        },
+        {
+            "genres": [
+                {
+                    "name": "короткометражка"
+                },
+                {
+                    "name": "боевик"
+                },
+                {
+                    "name": "комедия"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Великобритания"
+                },
+                {
+                    "name": "США"
+                }
+            ],
+            "name": "Уровень тревоги: Полночь",
+            "type": "movie",
+            "year": 2011,
+            "rating": {
+                "kp": 9.248,
+                "imdb": 9.6
+            },
+            "id": 1339977
+        },
+        {
+            "genres": [
+                {
+                    "name": "документальный"
+                },
+                {
+                    "name": "спорт"
+                }
+            ],
+            "name": "14 лет и 3 минуты до победы: Фильм о чемпионстве «Локомотива»",
+            "id": 1228543,
+            "type": "movie",
+            "rating": {
+                "kp": 9.214
+            },
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "year": 2018
+        },
+        {
+            "id": 351771,
+            "rating": {
+                "kp": 9.181,
+                "imdb": 9.1,
+                "filmCritics": 0,
+                "russianFilmCritics": 0,
+                "await": 0,
+                "tmdb": 8.6
+            },
+            "genres": [
+                {
+                    "name": "документальный"
+                },
+                {
+                    "name": "музыка"
+                },
+                {
+                    "name": "концерт"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Великобритания"
+                }
+            ],
+            "type": "movie",
+            "year": 1993,
+            "name": "Depeche Mode: Devotional"
+        },
+        {
+            "name": "Ateez World Tour [Towards the Light: Will to Power] в Сеуле",
+            "type": "movie",
+            "year": 2024,
+            "rating": {
+                "kp": 9.158,
+                "imdb": 8.8
+            },
+            "genres": [
+                {
+                    "name": "концерт"
+                },
+                {
+                    "name": "музыка"
+                }
+            ],
+            "id": 8055465,
+            "countries": [
+                {
+                    "name": "Корея Южная"
+                }
+            ]
+        },
+        {
+            "genres": [
+                {
+                    "name": "документальный"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "id": 1043713,
+            "type": "movie",
+            "year": 2017,
+            "name": "Он вам не Димон",
+            "rating": {
+                "kp": 9.153,
+                "imdb": 8.7
+            }
+        },
+        {
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "rating": {
+                "kp": 9.133
+            },
+            "id": 5413905,
+            "name": "Диана Арбенина. Ночные Снайперы-30 лет. Стадион Спартак",
+            "type": "movie",
+            "year": 2023,
+            "genres": [
+                {
+                    "name": "документальный"
+                },
+                {
+                    "name": "концерт"
+                }
+            ]
+        },
+        {
+            "rating": {
+                "kp": 9.133,
+                "imdb": 8.8,
+                "filmCritics": 0,
+                "russianFilmCritics": 0,
+                "await": 0
+            },
+            "genres": [
+                {
+                    "name": "короткометражка"
+                },
+                {
+                    "name": "мюзикл"
+                },
+                {
+                    "name": "фэнтези"
+                },
+                {
+                    "name": "комедия"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Великобритания"
+                }
+            ],
+            "year": 2005,
+            "id": 300980,
+            "name": "Буш-музыка",
+            "type": "movie"
+        },
+        {
+            "countries": [
+                {
+                    "name": "Великобритания"
+                }
+            ],
+            "rating": {
+                "kp": 9.114,
+                "imdb": 9.1
+            },
+            "genres": [
+                {
+                    "name": "драма"
+                }
+            ],
+            "id": 5139058,
+            "type": "movie",
+            "year": 2022,
+            "name": "На первый взгляд"
+        },
+        {
+            "type": "movie",
+            "name": "Побег из Шоушенка",
+            "rating": {
+                "kp": 9.111,
+                "imdb": 9.3,
+                "filmCritics": 8.4
+            },
+            "id": 326,
+            "countries": [
+                {
+                    "name": "США"
+                }
+            ],
+            "year": 1994,
+            "genres": [
+                {
+                    "name": "драма"
+                }
+            ]
+        },
+        {
+            "countries": [
+                {
+                    "name": "Корея Южная"
+                }
+            ],
+            "id": 5101725,
+            "year": 2022,
+            "genres": [
+                {
+                    "name": "концерт"
+                },
+                {
+                    "name": "музыка"
+                }
+            ],
+            "rating": {
+                "kp": 9.088,
+                "imdb": 8.5,
+                "tmdb": 0,
+                "filmCritics": 0,
+                "russianFilmCritics": 0,
+                "await": 0
+            },
+            "name": "BTS Permission To Dance: On Stage — LA",
+            "type": "movie"
+        },
+        {
+            "type": "movie",
+            "rating": {
+                "kp": 9.088
+            },
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "name": "Кубок Гагарина. Верить в мечту",
+            "year": 2025,
+            "genres": [
+                {
+                    "name": "документальный"
+                },
+                {
+                    "name": "спорт"
+                }
+            ],
+            "id": 8808796
+        },
+        {
+            "genres": [
+                {
+                    "name": "драма"
+                },
+                {
+                    "name": "фэнтези"
+                },
+                {
+                    "name": "криминал"
+                }
+            ],
+            "name": "Зеленая миля",
+            "countries": [
+                {
+                    "name": "США"
+                }
+            ],
+            "year": 1999,
+            "type": "movie",
+            "id": 435,
+            "rating": {
+                "kp": 9.078,
+                "imdb": 8.6,
+                "tmdb": 0,
+                "filmCritics": 7.4,
+                "russianFilmCritics": 0,
+                "await": 0
+            }
+        },
+        {
+            "type": "movie",
+            "genres": [
+                {
+                    "name": "семейный"
+                },
+                {
+                    "name": "приключения"
+                }
+            ],
+            "id": 1360641,
+            "name": "Пушистый патруль",
+            "countries": [
+                {
+                    "name": "Перу"
+                },
+                {
+                    "name": "Австралия"
+                }
+            ],
+            "year": 2019,
+            "rating": {
+                "kp": 9.076,
+                "imdb": 6.1
+            }
+        },
+        {
+            "id": 11537880,
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "документальный"
+                },
+                {
+                    "name": "спорт"
+                }
+            ],
+            "name": "Краснодар: Путь к чемпионству",
+            "rating": {
+                "kp": 9.059
+            },
+            "type": "movie",
+            "year": 2026
+        },
+        {
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "year": 2019,
+            "rating": {
+                "kp": 9.04
+            },
+            "name": "Монте-Кристо. Мюзикл",
+            "genres": [
+                {
+                    "name": "мюзикл"
+                },
+                {
+                    "name": "мелодрама"
+                }
+            ],
+            "id": 1313572,
+            "type": "movie"
+        },
+        {
+            "year": 2017,
+            "rating": {
+                "kp": 9.023,
+                "imdb": 9.1
+            },
+            "genres": [
+                {
+                    "name": "концерт"
+                },
+                {
+                    "name": "музыка"
+                },
+                {
+                    "name": "документальный"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Великобритания"
+                }
+            ],
+            "name": "Ханс Циммер: Live in Prague",
+            "id": 1105410,
+            "type": "movie"
+        },
+        {
+            "rating": {
+                "kp": 9.022,
+                "imdb": 8.2
+            },
+            "countries": [
+                {
+                    "name": "Канада"
+                }
+            ],
+            "genres": [
+                {
+                    "name": "документальный"
+                }
+            ],
+            "id": 1101247,
+            "name": "Самадхи, часть 1: Майя, иллюзия обособленного себя",
+            "type": "movie",
+            "year": 2017
+        },
+        {
+            "id": 1115424,
+            "type": "movie",
+            "genres": [
+                {
+                    "name": "документальный"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "name": "Медведи Камчатки. Начало жизни",
+            "year": 2018,
+            "rating": {
+                "kp": 9.017
+            }
+        },
+        {
+            "id": 5451179,
+            "name": "Подземелья Чикен Карри-24. Черный Геленбург",
+            "year": 2024,
+            "rating": {
+                "kp": 9.011
+            },
+            "countries": [
+                {
+                    "name": "Россия"
+                }
+            ],
+            "type": "movie",
+            "genres": [
+                {
+                    "name": "игра"
+                },
+                {
+                    "name": "ток-шоу"
+                },
+                {
+                    "name": "комедия"
+                }
+            ]
+        },
+        {
+            "id": 5235920,
+            "type": "movie",
+            "rating": {
+                "kp": 9,
+                "imdb": 8.6
+            },
+            "name": "BTS: Yet To Come in Cinemas",
+            "genres": [
+                {
+                    "name": "концерт"
+                },
+                {
+                    "name": "музыка"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Корея Южная"
+                }
+            ],
+            "year": 2023
+        },
+        {
+            "id": 328627,
+            "year": 1990,
+            "genres": [
+                {
+                    "name": "музыка"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Великобритания"
+                }
+            ],
+            "type": "movie",
+            "rating": {
+                "kp": 8.998,
+                "imdb": 8.8,
+                "filmCritics": 0,
+                "russianFilmCritics": 0,
+                "await": 0,
+                "tmdb": 7.625
+            },
+            "name": "Depeche Mode: Strange Too"
+        },
+        {
+            "type": "movie",
+            "year": 2019,
+            "id": 1405666,
+            "name": "Убежище. Истории о выживании в Альпах",
+            "rating": {
+                "kp": 8.99,
+                "imdb": 8.7
+            },
+            "genres": [
+                {
+                    "name": "документальный"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Франция"
+                }
+            ]
+        },
+        {
+            "rating": {
+                "kp": 8.986,
+                "imdb": 8.6
+            },
+            "genres": [
+                {
+                    "name": "короткометражка"
+                },
+                {
+                    "name": "комедия"
+                }
+            ],
+            "type": "movie",
+            "year": 2004,
+            "id": 982493,
+            "countries": [
+                {
+                    "name": "США"
+                }
+            ],
+            "name": "Друзья: Ещё один эпизод перед последним – Десять лет Друзей"
+        },
+        {
+            "genres": [
+                {
+                    "name": "документальный"
+                },
+                {
+                    "name": "музыка"
+                },
+                {
+                    "name": "концерт"
+                }
+            ],
+            "countries": [
+                {
+                    "name": "Франция"
+                }
+            ],
+            "type": "movie",
+            "id": 438301,
+            "rating": {
+                "kp": 8.978,
+                "imdb": 9.1,
+                "filmCritics": 0,
+                "russianFilmCritics": 0,
+                "await": 0,
+                "tmdb": 8.5
+            },
+            "year": 2000,
+            "name": "Mylene Farmer: Mylenium Tour"
+        }
+    ],
+    "total": 114901,
+    "limit": 30,
+    "page": 1,
+    "pages": 3831
+}

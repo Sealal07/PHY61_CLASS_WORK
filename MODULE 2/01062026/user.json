@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "login": "admin",
+    "password": "123AA",
+    "numbers": [
+        1,
+        2,
+        3
+    ],
+    "name": "Иван"
+}

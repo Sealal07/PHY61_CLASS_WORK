@@ -1,0 +1,64 @@
+1)Фильтрация WHERE
+SELECT * FROM name_table
+WHERE id = 1
+= > < >= <= <>
+- AND   OR   NOT
+true 1
+false 0
+
+true and true = true
+true and false = false
+false and false = false
+false and false =  false
+
+true or true = true
+true or false = true
+flase or true = true
+false or false = false
+
+Students(name, age, is_budjet)
+1)Выбрать совершеннолетних и учатся на бюджете
+SELECT name FROM Students
+WHERE age >= 18 AND is_budjet = 1
+2)Выбрать студентов 19 или 21 года
+которые учатся на бюджете
+SELECT name FROM Students
+WHERE (age = 19 OR age = 21) AND is_budjet=1 
+
+-BETWEEN (диапазон, границы включены)
+0 <= a <= 100, a BETWEEN 0 AND 100
+WHERE a >= 0 AND a <= 100
+Выбрать студентов от 18 до 20 лет
+SELECT name FROM Students
+WHERE age BETWEEN 18 AND 20;
+
+IN (работа со множеством, совпадает ли 
+с одним из перечисленных элементов)
+NOT IN
+
+Студенты из групп RPO-21, RPO-22, KB-11
+SELECT name, group FROM Students
+WHERE group='RPO-21' OR 
+group='RPO-22' OR group='KB-11'
+
+SELECT name, group FROM Students
+WHERE group IN ('RPO-21', 'RPO-22', 'KB-11');
+
+-LIKE(неточный поиск по шаблону)
+% - заменяет любое кол-во символов
+_ - заменяет ровно один символ
+
+Всех, чье имя начинается на "Ив" 
+SELECT name FROM Students
+WHERE name LIKE 'Ив%'
+
+Всех, у кого вторая буква "а" в имени
+SELECT name FROM Students
+WHERE name LIKE '_a%'
+
+-IS NULL
+SELECT name FROM Students WHERE age IS NULL
+SELECT name FROM Students WHERE age NOT IS NULL
+
+
+

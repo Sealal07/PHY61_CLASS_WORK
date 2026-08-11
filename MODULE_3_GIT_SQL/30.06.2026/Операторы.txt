@@ -1,0 +1,61 @@
+Поле-столбец (вертикаль)(атрибут)
+Записи-строка (горизонталь)(кортеж)
+Отношения (relation)-основная еденица БД, описывает
+только одну сущность
+Первичный (primary key)-уникальный, не пустой
+Внешний (foreign key)-запись, которая ссылается на
+первичный ключ другой таблицы
+Типы связей:
+1) 1:1
+2) 1:N
+3) N:N
+SQL-язык структурированных запросов
+1)DDL-data definition language:
+CREATE - создать
+ALTER - изменить 
+DROP - удалить
+Объекты БД: таблицы, функции, триггеры, 
+процедуры, БД
+2)DML - data manipulation language
+INSERT INTO - вставка
+UPDATE - обновление
+DELETE - удаление
+3)DQL - data query language
+SELECT - выбрать
+
+CRUD -  4 обязательных операции с данными
+
+CREATE TABLE name_table (
+    col1 datatype,
+    col2 datatype,
+    col3 datatype		
+);
+Data Types - TEXT, INT, FLOOR, BOOLEAN
+
+Товар: цена, имя, кол-во
+
+Автоинкрементация - автоприращение(увеличение
+значения на 1) 
+
+
+INSERT INTO name_table (col1, col2, col3)
+VALUES (val1, val2, val3),(val1, val2, val3);
+
+
+SELECT * FROM name_table;
+SELECT col1, col2 FROM name_table;
+
+UPDATE name_table SET col1 = val1
+WHERE id = val;
+
+
+DELETE FROM name_table
+WHERE id = val;
+
+
+
+
+
+
+
+
