@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* семейство шрифтов */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #272727;
+    color: white;
+    /* пограничные значения */
+    min-height: 100vh;
+    
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+ }
+
+header{
+    width: 100%;
+    background-color: #ff9eff;
+    height: 15vh;
+    min-height: 60px;
+}
+
+nav{
+    text-align: center;
+    padding-top: 20px;
+}
+
+a{
+    color: #272727;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.5s;
+    font-size: 32px;
+}
+/* псевдокласс :last-child  :first-child */
+a:last-child{
+    margin: 0;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+aside, main{
+    display: inline-block;
+}
+aside{
+    max-width: 20vw;
+    min-height: 85vh;
+    background-color: #ffeeff;
+    padding: 15px;
+    vertical-align: top;
+    width: 20vw;
+    min-width: 150px;
+}
+
+button{
+    background-color: #272727;
+    color: #ff9eff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #ffeeff;
+    color: #272727;
+    box-shadow: 0px 0px 15px rgba(0,0 , 0, 0.8);
+}
+main{
+    max-width: 65vw;
+    padding-left: 35px;
+    max-height: 85vh;
+    overflow-y: scroll;
+    min-width: 65vw;
+}
+
+main::-webkit-scrollbar{
+    scrollbar-width: none;
+}
+
+
+
+section{
+    margin-top: 100px;
+    border-bottom: 5px solid #ffeeff;
+    padding-bottom: 50px;
+
+}
+
+h1, h2{
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #ff9eff;
+    font-weight: 900;
+}
+article{
+    font-size: 24px;
+}
+
+footer{
+    min-height: 10vh;
+    padding: 30px;
+    text-align: center;
+}
+
+#bg_img{
+    min-height: 500px;
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background: url('images.jpg') no-repeat ;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+section:first-child{
+    margin-top: 35px;
+}
