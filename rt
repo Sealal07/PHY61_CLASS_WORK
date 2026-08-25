@@ -34,3 +34,33 @@ git add .
 git commit -m 'fix merge conflict'
 
 git push origin main
+
+
+git clone https://github.com/Sealal07/python-banking-core-kirniiv.git
+cd python-banking-core-
+
+git checkout -b fix/bag
+
+pip install -r requirements.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

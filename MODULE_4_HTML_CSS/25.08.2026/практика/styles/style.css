@@ -1,0 +1,65 @@
+/* обращение к псевдоклассу 
+:root - название существующее для корневого элемента
+*/
+/* :root-глобальные настройки   html */
+:root{
+    --gray: #535353;
+    --dark_gray: #424245;
+    --light_gray: #D4D4D4;
+    --black: #000;
+    --white: #fff;
+    --title_size: 64px;
+    --text_size: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* HEADER STYLE START */
+header{
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 22px;
+    position: absolute;
+}
+#logo{
+    width: 50px;
+}
+#logo img{
+    width: 100%;
+}
+header .wrapper{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav{
+    display: flex;
+    gap: 60px;
+}
+
+.header_link{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: var(--gray);
+    font-size: var(--text_size);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.header_link:hover{
+    color: var(--black);
+}
+/* HEADER STYLE END */
+
+
+#first{
+    background: url('../images/background\ 1.png'), linear-gradient(74.89deg, #D1D1D1 0%, #FFFBFB 44.04%, #E7E7E7 91.53%);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
