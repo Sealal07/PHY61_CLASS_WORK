@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФОРМЫ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- get и post HTTP методы -->
+     <!-- get запрос отправляет данные через URL -->
+      <!-- post - безопасен -->
+       <!--  action="/" - перенаправление после отправки формы -->
+    <form method="get">
+
+        <!-- label-подпись к полю формы -->
+        <label for="name">Логин:</label>
+        <!-- поле вводу в одну строку -->
+         <!-- name - для отправки данных на сервер -->
+        <input id="name" type="text" name="username" placeholder="Введите логин">
+        <input type="password">
+        <!-- required-обязательно для заполнения -->
+        <input type="email" required>
+        <input type="color" name="color">
+        <input type="date">
+        <input type="time">
+        <input type="number" min="15" max="99" step="10">
+
+        <!-- checkbox - допускает множественную отметку -->
+        <label>Я согласен с условиями
+            <input type="checkbox" checked>
+        </label>
+
+        <label>MALE
+            <input type="radio" name="pol" value="male">
+        </label>
+        <label>FEMALE
+            <input type="radio" name="pol" value="female">
+        </label>
+
+        <!-- выпадающий список -->
+        <select>
+            <option>Вариант 1</option>
+            <option>Вариант 2</option>
+            <option>Вариант 3</option>
+        </select>
+
+        <!-- Многострочное поле ввода -->
+        <textarea rows="10" cols="10" placeholder="Комментарий">
+            КАКОЙ_ТО ТЕКСТ
+        </textarea>
+
+        <!-- type="submit" внутри form/отправляет данные -->
+        <button type="submit">Отправить</button>
+        <button type="reset">Сбросить</button>
+    </form>
+</body>
+</html>

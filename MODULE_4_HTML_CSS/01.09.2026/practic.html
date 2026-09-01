@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital Select</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <header>
+            <h1>Capital Select</h1>
+            <p>Заявка на открытие премиального счета</p>
+        </header>
+
+        <form method="post" enctype="multipart/form-data">
+            <!-- БЛОК 1 -->
+            <fieldset>
+                <legend>1. Персональные данные</legend>
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label for="fullname">
+                            ФИО заявителя *
+                        </label>
+                        <input type="text" id="fullname" placeholder="Иванов Иван Иванович" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">
+                            Контактный Email *
+                        </label>
+                        <input type="email" id="email" placeholder="example@client.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">
+                            Телефон для связи *
+                        </label>
+                        <input type="tel" id="phone" placeholder="+7 (999) 000-00-00" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthday">
+                            Дата рождения
+                        </label>
+                        <input type="date" id="birthday">
+                    </div>
+                    <div class="form-group">
+                        <label for="pasport">
+                            Скан паспорта (главная страница)
+                        </label>
+                        <input type="file" id="pasport" accept="image/*,.pdf">
+                    </div>
+                </div>
+            </fieldset>
+            <!-- БЛОК 2 -->
+            <fieldset>
+                <legend>2.Финансовый профиль</legend>
+                <div class="form-group">
+                    <label for="currency">
+                        Желаемая валюта счета
+                    </label>
+                    <select id="currency">
+                        <option value="rub">Рубли (RUB)</option>
+                        <option value="aed">Дирхамы (AED)</option>
+                        <option value="cny">Юани (CNY)</option>
+                        <option value="multi">Мультивалютный портфель</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Планируемые объем первоначального депозита</label>
+                    <div class="radio-group">
+                        <input type="radio" name="deposit" value="5-15m" checked>
+                        От 5 000 000 до 15 000 000 Р
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="deposit" value="15-50m">
+                        От 15 000 000 до 50 000 000 Р
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="deposit" value="50m+">
+                        Более 50 000 000 Р
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Интересующие услуги</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" value="manage">
+                        Инвестиционное доверительное управление
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" value="tax_legal">
+                         Налоговое и юридическое консультирование
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" value="concierge">
+                        Премиальный консьерж-сервис (24/7)
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" value="lounge">
+                         Доступ в VIP-залы аэропортов (Lounge Key)
+                    </div>
+                </div>
+            </fieldset>
+
+        </form>
+
+    </div>
+</body>
+</html>
