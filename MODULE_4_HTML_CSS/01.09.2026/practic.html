@@ -99,7 +99,66 @@
                     </div>
                 </div>
             </fieldset>
-
+            <!-- БЛОК 3 -->
+             <fieldset>
+                <legend>3. Инвестиционный риск портфель</legend>
+                <div class="form-group">
+                    <label for="risk">
+                        Готовность к риску (1 - Консерватиный,
+                        5 - Агрессивный )
+                    </label>
+                    <input type="range" id="risk" min="1" max="5" 
+                    value="3" step="1">
+                    <div class="range-labels">
+                        <span>1(мин.риск)</span>
+                        <span>3</span>
+                        <span>5</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="call-time">
+                        Удобное время для звонка персонального
+                        менеджера
+                    </label>
+                    <input type="time" id="call-time">
+                </div>
+                <div class="form-group">
+                    <label for="comments">
+                        Дополнительная информация
+                    </label>
+                    <textarea id="comments" maxlength="500" 
+                    rows="4" placeholder="Введите ваши пожелания"></textarea>
+                </div>
+             </fieldset>
+             <!-- БЛОК 4 -->
+             <fieldset>
+                <legend>4. Безопасность и подтверждение</legend>
+                <div class="form-group">
+                    <label>Способ подтверждения операций</label>
+                    <div class="radio-inline-group">
+                        <input type="radio" name="auth_method">
+                        SMS-код
+                        <input type="radio" name="auth_method">
+                        Push-уведомления
+                        <input type="radio" name="auth_method">
+                        Аппаратный токен
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="agree-checkbox">
+                        <input type="checkbox" required>
+                        Согласие на обработку ПД и проверку КИ *
+                    </label>
+                </div>
+             </fieldset>
+             <div class="btn-group">
+                <button type="submit" class="btn btn-sub">
+                    Отправить заявку
+                </button>
+                <button type="reset" class="btn btn-reset">
+                    Очистить форму
+                </button>
+             </div>
         </form>
 
     </div>
