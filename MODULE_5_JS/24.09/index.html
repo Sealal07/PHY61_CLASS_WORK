@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космическая станция - Орион</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Космическая станция Орион</h1>
+        </header>
+        <main>
+            <!-- TASK 1 -->
+             <section class="module" id="task1">
+                <div class="module-header">
+                    <h2>Задача 1</h2>
+                </div>
+                <div class="module-content">
+                    <p>Переключатель</p>
+                    <div class="switch-container">
+                        <label class="switch">
+                            <input type="checkbox" id="alertToggle">
+                            <span class="slider"></span>
+                        </label>
+                        <span class="switch-status" id="statusLabel">
+                            Штатный режим
+                        </span>
+                    </div>
+                </div>
+             </section>
+
+                <!-- TASK 2 -->
+            <section class="module" id="task2">
+                <div class="module-header">
+                    <h2>Задача 2</h2>
+                </div>
+                <div class="module-content">
+                    <p>Регулировка мощности</p>
+                    <div class="reactor-controll">
+                        <div class="custom-slider">
+                            <div class="slider-track">
+                                <div class="slider-fill" id="sliderFill"></div>
+                                <div class="slider-tumb" id="sliderTumb"></div>
+                            </div>
+                        </div>
+                        <div class="reactor-value">
+                            <input type="number" min="1" max="100" value="50" id="reactorValue">
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- TASK 3 -->
+             <section class="module" id="task3">
+                <div class="module-header">
+                    <h2>Задача 3</h2>
+                </div>
+                <div class="module-content">
+                    <p>Управление виджетами</p>
+                    <div class="widgets-grid">
+                        <div class="widget" data-widget="temp">
+                            <h3>Температура</h3>
+                            <p class="widget-value">22C</p>
+                        </div>
+                        <div class="widget" data-widget="press">
+                            <h3>Давление</h3>
+                            <p class="widget-value">1.2 атм</p>
+                        </div>
+                        <div class="widget" data-widget="commun">
+                            <h3>Связь</h3>
+                            <p class="widget-value">Активна</p>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
