@@ -78,7 +78,77 @@
                 </div>
              </section>
 
+             <!-- TASK 4 -->
+              <section class="module" id="task4">
+                <div class="module-header">
+                    Задача 4
+                </div>
+                <div class="module-content">
+                    <p>Нажмите для вызова уведомления</p>
+                    <div class="notification-btn">
+                        <button class="btn btn-success" 
+                        onclick="showNotification('Запущено', 'success')">
+                            ✅Успех
+                        </button>
+                        <button class="btn btn-warning"
+                        onclick="showNotification('Низкий заряд', 'warning')">
+                            ⚠Предупреждение
+                        </button>
+                        <button class="btn btn-error"
+                        onclick="showNotification('Ошибка связи!', 'error')">
+                            ❌Ошибка
+                        </button>
+                    </div>
+                </div>
+              </section>
+              <!-- TASK 9 -->
+              <section class="module" id="task9">
+                <div class="module-header">
+                    Задача 9
+                </div>
+                <div class="module-content">
+                    <p>Двигайте мышью по странице</p>
+                    <div class="viewport-container" id="viewportContainer">
+                        <div class="parallax stars" id="starsLayer"></div>
+                        <div class="parallax planet" id="planetLayer"></div>
+                        <div class="parallax frame" id="frameLayer"></div>
+                    </div>
+                </div>
+              </section>
+              <!-- Task7 -->
+              <section class="module" id="task7">
+                <div class="module-header">
+                    Задача 7
+                </div>
+                <div class="module-content">
+                    <p>Перетащите виджеты</p>
+                    <div class="draggable" id="draggable">
+                        <div class="wid" draggable="true">
+                            <h3>Виджет A</h3>
+                        </div>
+                        <div class="wid" draggable="true">
+                            <h3>Виджет B</h3>
+                        </div>
+                        <div class="wid" draggable="true">
+                            <h3>Виджет C</h3>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
         </main>
+
+
+        <!-- TASK 3.ContextMenu -->
+
+        <div id="contextMenu" class="contextMenu">
+            <div class="context-item" data-action="reload">🔄Перезагрузить</div>
+            <div class="context-item" data-action="diagnose">🔍Диагностика</div>
+            <div class="context-item" data-action="hide">👁‍🗨Скрыть</div>
+        </div>
+
+        <!-- TASK4.Notification -->
+         <div class="notification-container" id="notCont"></div>
 
         <script src="script.js"></script>
     </body>
