@@ -1,0 +1,22 @@
+.error{
+    color: crimson;
+    font-size: 12px;
+}
+
+input.invalid{
+    border: 2px solid crimson;
+}
+input.valid{
+    border: 2px solid seagreen;
+}
+
+#order{
+    margin-top: 50px;
+    border: 1px solid #272727;
+    padding: 15px;
+    max-width: 500px;
+}
+#order label{
+    display: block;
+    margin-bottom: 5px;
+}
