@@ -21,13 +21,26 @@
                 <h1>Космический звездолет</h1>
                 <button id="startBtn">Играть</button>
               </div>
+
               <div class="screen hidden" id="gameOver">
                 <h1>Игра окончена</h1>
+                <p id="finalScore">Ваш результат: 0</p>
+                <div class="save-score">
+                  <input type="text" id="playerName">
+                  <button id="saveBtn">Сохранить</button>
+                </div>
                 <button id="restartBtn">Играть снова</button>
               </div>
-              <div id="player" class="ship"></div>
-        </div>
 
+              <div id="player" class="ship"></div>
+              
+              
+
+        </div>
+        <div class="leadboard">
+                <h2>Рекорды: </h2>
+                <ol id="leadList"></ol>
+        </div>
 
     </div>
 

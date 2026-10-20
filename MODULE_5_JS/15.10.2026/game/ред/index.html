@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космический звездолет</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="game-container" id="gameContainer">
+            <!-- Панель статистики -->
+            <div class="hud">
+                <div>Счет: <span id="score">0</span></div>
+                <div>Время: <span id="timer">60</span>s</div>
+                <div>Жизни: <span id="lives">3</span>💛</div>
+            </div>
+
+            <!-- Экран старта -->
+            <div class="screen" id="startScreen">
+                <h1>Космический звездолет</h1>
+                <button id="startBtn">Играть</button>
+            </div>
+
+            <!-- Экран конца игры -->
+            <div class="screen hidden" id="gameOver">
+                <h1 id="gameOverTitle">Игра окончена</h1>
+                <p id="finalScoreText">Ваш результат: 0</p>
+                <div class="save-score">
+                    <input type="text" id="playerName" placeholder="Введите ваше имя" maxlength="15">
+                    <button id="saveBtn">Сохранить результат</button>
+                </div>
+                <button id="restartBtn" class="hidden">Играть снова</button>
+            </div>
+
+            <div id="player" class="ship"></div>
+        </div>
+
+        <!-- Турнирная таблица справа -->
+        <div class="leaderboard-container">
+            <h2>🏆 Рекорды</h2>
+            <ol id="leaderboardList">
+                <!-- Записи добавляются через JS -->
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
