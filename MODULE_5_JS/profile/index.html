@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница личного профиля</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER START -->
+     <header>
+        <div class="app-title">Мое приложение</div>
+        <div class="user-info-container">
+            <img src="avatar.jpg">
+            <div class="user-text-info">
+                <span class="user-name">Александра Рудак</span>
+                <span class="user-status online">В сети</span>
+            </div>
+        </div>
+     </header>
+      <!-- HEADER END -->
+
+      <!-- ABOUT SECTION START -->
+        <section class="profile-main-card">
+            <h2>Основная информация</h2>
+
+            <div class="info-item">
+                <strong>Имя:</strong> <span id="profile-name">
+                    Александра Рудак
+                </span>
+            </div>
+            <div class="info-item">
+                <strong>Email:</strong> <span id="profile-email">
+                    rudak0707@gmail.com
+                </span>
+            </div>
+            <div class="info-item">
+                <strong>Телефон:</strong> <span id="profile-phone">
+                    +7 (999) 123-45-67
+                </span>
+            </div>
+            <div class="info-item">
+                <strong>Город:</strong> <span id="profile-city">
+                    Новосибирск
+                </span>
+            </div>
+            <div class="info-item">
+                <strong>О себе:</strong> <span id="profile-bio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa.
+                </span>
+            </div>
+        </section>
+     <!-- ABOUT SECTION END -->
+
+    <!-- PANEL START -->
+     <section class="control-panel-card">
+        <h2>Панель управления и настройки</h2>
+        <button id="edit-toggle-btn" class="primary-btn">
+            Редактировать профиль
+        </button>
+
+        <form id="profile-form" class="hidden-form">
+            <div class="form-group">
+                <label for="input-name">Имя: </label>
+                <input type="text" id="input-name">
+            </div>
+            <div class="form-group">
+                <label for="input-email">Email: </label>
+                <input type="email" id="input-email">
+                <span class="error-msg" id="email-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="input-city">Город: </label>
+                <input type="text" id="input-city">
+            </div>
+            <div class="form-group">
+                <label for="input-bio">
+                    О себе (осталось <span id="char-counter">150</span> ):
+                </label>
+                <textarea id="input-bio" maxlength="150"></textarea>
+            </div>
+            <button type="submit" id="save-btn" class="success-btn">
+                Сохранить
+            </button>
+        </form>
+
+        <div class="settings-group">
+            <h3>Смена пароля</h3>
+            <form id="pass-form">
+                <div class="form-group">
+                    <label for="input-pass">Новый пароль:</label>
+                    <input type="password" id="input-pass">
+                    <span class="error-msg" id="pass-error"></span>
+                </div>
+                <button type="submit" id="save-pass-btn"
+                class="success-btn" disabled>
+                    Сохранить
+                </button>
+            </form>
+            <div class="theme-switch-container">
+                <label for="theme-switch">Темная тема:</label>
+                <input type="checkbox" id="theme-switch">
+            </div>
+        </div>
+     </section> 
+    <!-- PANEL END  -->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
